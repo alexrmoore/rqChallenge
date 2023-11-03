@@ -1,0 +1,4 @@
+ú18:00:41.076 [Test worker] INFO com.example.rqchallenge.employees.employeeProvider.RestEmployeeProvider - Sending rest request to dummy-url.com/employees.
+ù18:00:41.093 [Test worker] INFO com.example.rqchallenge.employees.employeeProvider.RestEmployeeProvider - Sending rest request to dummy-url.com/employee/5.
+õ18:00:41.106 [Test worker] INFO com.example.rqchallenge.employees.employeeProvider.RestEmployeeProvider - Sending rest request to dummy-url.com/delete/5.
+ô18:00:41.110 [Test worker] INFO com.example.rqchallenge.employees.employeeProvider.RestEmployeeProvider - Sending rest request to dummy-url.com/create.
