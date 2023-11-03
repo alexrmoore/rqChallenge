@@ -38,7 +38,7 @@ public class BasicEmployeeServiceImpl implements EmployeeService {
                 .collect(Collectors.toList());
     }
 
-    public List<Employee> getEmployeesByName(String searchString) {
+    public List<Employee> getEmployeesByName(String searchString) { // Could be beneficial to implement some kind of 'case check' here (e.g. toUpperCase()). Decided against as the guidance simply states "whose name contains or matches the string input provided".
         return employeeProvider.getEmployees().stream()
                 .map(e -> conversionService.convert(e, Employee.class))
                 .filter(employee -> employee.name().contains(searchString))

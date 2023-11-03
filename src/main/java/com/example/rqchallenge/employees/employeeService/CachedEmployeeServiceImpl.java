@@ -7,7 +7,6 @@ import com.example.rqchallenge.employees.employeeProvider.dto.PostedEmployee;
 import com.example.rqchallenge.employees.iEmployeeController.dto.Employee;
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.MeterRegistry;
-import io.micrometer.core.instrument.Gauge;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
